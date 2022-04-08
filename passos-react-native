@@ -38,6 +38,12 @@ react-native run-android
 
 --------------CASO OCORRA ALGUM ERRO NA EXECUÇÃO--------------------------------------
 
+npm uninstall -g react-native react-native-cli
+
+npm install -g react-native react-native-cli
+
+react-native start --reset-cache
+
 
 cd android
 
